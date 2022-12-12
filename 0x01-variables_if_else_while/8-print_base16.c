@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * Return: int 0
+ * main - prints all the numbers od base 16 in lowercase,
+ * followed by a new line
+ * Return: Always 0
  */
 int main(void)
 {
@@ -13,9 +14,9 @@ int main(void)
 	{
 		putchar(n);
 	}
-	for (ch = 'a'; ch <= 'f'; chh++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar(n);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
