@@ -10,17 +10,20 @@ int main(void)
 
 	for (i=0; i < 100; j++)
 	{
-		if (i < j)
+		for (i = 0; i < 100; i++)
 		{
-			putchar((i / 10) + 48);
-			putchar((i % 10) + 48);
-			putchar(' ');
-			putchar((j / 10) + 48);
-			putchar((j % 10) + 48);
-			if (i != 98 || j != 99)
-			{
-				putchar(',');
-				putchar(' ');
+			if (i < j)
+		        {
+				putchar((i / 10) + 48);
+			        putchar((i % 10) + 48);
+			        putchar(' ');
+			        putchar((j / 10) + 48);
+			        putchar((j % 10) + 48);
+			        if (i != 98 || j != 99)
+			        {
+					putchar(',');
+				        putchar(' ');
+				}
 			}
 		}
 	}
