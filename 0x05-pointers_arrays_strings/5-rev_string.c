@@ -26,3 +26,4 @@ void rev_string(char *s)
 		s[max - half] = last;
 		half--;
 	}
+}
