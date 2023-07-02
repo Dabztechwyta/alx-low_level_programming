@@ -1,2 +1,0 @@
-# DyNAMIC LIBRARIES
-Solutions
